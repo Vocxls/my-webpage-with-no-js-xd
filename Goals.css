@@ -1,0 +1,489 @@
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  -moz-overflow-style: none;
+  }
+.class {background-color: transparent; 
+    border:  dashed 8px skyblue;
+    width: 60%; 
+    height: 100%;
+    margin: 0 auto; 
+    line-height: 2.5;
+    border-radius: 0px; 
+    padding: 3%; 
+    color: white; 
+    animation: fadeIn infinite 7.5s, 7.5s, 7.5s, 7.5s, 7.5s;
+    transition: 0.3s;
+     font-weight: bold;
+    font-size: 1.5vw;
+}
+   
+    .class:hover 
+    {
+        border: solid 10px skyblue;
+        width: 60%; 
+        height: 100%;
+    margin: 0 auto; 
+    line-height: 2.5;
+    border-radius: 50px; 
+    padding: 3%; 
+    color: white; 
+    }
+    .btn:hover{
+      border: solid 3px 	black; 
+      color: black;
+        width: 150px; 
+        height: 50px; 
+        border-radius: 25px; 
+        font-family: sans-serif; 
+    text-transform: uppercase;
+    background: transparent;
+    transition: 0.4s;
+    }
+    
+    .btn{border: solid 3px 	white; 
+      color: white;
+        width: 150px; 
+        height: 50px; 
+        border-radius: 25px; 
+        font-family: sans-serif; 
+    text-transform: uppercase;
+    background: transparent;
+    transition: 0.4s;
+    }
+    
+    
+    .btn::before
+    {
+    
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+      
+    }
+    .btn1{
+    border-radius: 50% 50% 50% 50%;
+    }
+    .btn:hover
+    {border: none; 
+        width: 150px; 
+        height: 50px; 
+        border-radius: 25px; 
+        font-family: sans-serif; 
+        cursor:pointer;  
+        color: white;
+    background-size: 300px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left,#FDA7DF, #9980FA,#FDA7DF);
+    
+    }
+    ul{list-style-type: none;}
+    
+    .btn2{
+        border-radius: 50% 50% 50% 50%;
+        }
+        .btn2:hover
+    {border: none; 
+        width: 150px; 
+        height: 50px; 
+        border-radius: 25px; 
+        font-family: sans-serif; 
+        cursor:pointer;  
+        color: white;
+    background-size: 300px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #FFCC70 , #C850C0 , #FFCC70);
+    
+    }
+    
+    
+    
+    .btn3{
+        border-radius: 50% 50% 50% 50%;
+        }
+        .btn3:hover
+    {border: none; 
+        width: 150px; 
+        height: 50px; 
+        border-radius: 25px; 
+        font-family: sans-serif; 
+        cursor:pointer;  
+        color: white;
+    background-size: 300px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #0099F7 , #F11712 , #7AA1D2 );
+    
+    }
+    
+    .btn4{
+        border-radius: 50% 50% 50% 50%;
+        }
+        .btn4:hover
+    {border: none; 
+        width: 150px; 
+        height: 50px; 
+        border-radius: 25px; 
+        font-family: sans-serif; 
+        cursor:pointer;  
+        color: white;
+    background-size: 300px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #ffff00 , #ff0000 , #ffff00 );
+    
+    }
+  
+  
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  
+  }
+  .sidebar:hover {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+   
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    color: #818181;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 42.5px;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    padding: 16px;
+  }
+  
+  @keyframes fadeIn {
+  0%{
+    border:  dashed 6px skyblue
+  }
+    25%{
+      border:   dashed 6px blue;
+  }
+  50%{
+    border: dashed 6px red; 
+  }
+  75%{
+    border: dashed 6px purple; }
+
+    100%{
+        border:  dashed 6px skyblue
+      }
+}
+
+@media only screen and (max-width: 894px) {
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    -moz-overflow-style: none;
+    }
+  .class {background-color: transparent; 
+    border:  dashed 8px skyblue;
+    float: none;
+
+width: 94%;
+    height: 100%;
+    margin: 1%;
+    line-height: 2.5;
+    padding: 0%; 
+    animation: fadeIn infinite 7.5s, 7.5s, 7.5s, 7.5s, 7.5s;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: bold;
+} 
+
+
+.class:hover 
+    {
+      border:  dashed 8px skyblue;
+      float: none;
+  
+  width: 94%;
+      height: 100%;
+      margin: 1%;
+      line-height: 2.5;
+      padding: 0%; 
+      animation: fadeIn infinite 7.5s, 7.5s, 7.5s, 7.5s, 7.5s;
+      transition: 0.3s;
+      font-size: 12px;
+      font-weight: bold;
+
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 6.5px 11.5px;
+  border: none;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+}
+@media only screen and (min-width: 1654px) and (max-width: 10000px){
+
+  .scrollbar-hidden::-webkit-scrollbar {
+      display: none;
+      -ms-overflow-style: none;
+      }
+      
+
+
+      .btn:hover{border: solid 3px 	black; 
+        color: black;
+          width: 245; 
+          height: 80px; 
+          border-radius: 50px; 
+          font-family: sans-serif; 
+          font-size: 22.5px;
+      text-transform: uppercase;
+      background: transparent;
+      transition: 0.4s;
+      }
+      
+.btn{border: solid 3px 	white ; 
+color: white;
+width: 245px; 
+height: 80px;
+  border-radius: 50px; 
+  font-family: sans-serif; 
+  font-size: 22.5px;
+text-transform: uppercase;
+background: transparent;
+transition: 0.4s;
+}
+
+
+
+.btn::before
+{
+
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+
+}
+.btn1{
+border-radius: 50% 50% 50% 50%;
+
+}
+.btn1:hover
+{border: none; 
+width: 245px; 
+height: 80px;
+  border-radius: 50px; 
+  font-family: sans-serif; 
+  font-size: 22.5px;
+  cursor:pointer;  
+  color: white;
+background-size: 300px;
+text-transform: uppercase;
+background-image: linear-gradient(to left,#FDA7DF, #9980FA,#FDA7DF);
+
+}
+ul{list-style-type: none;}
+
+.btn2{
+  border-radius: 50% 50% 50% 50%;
+
+  }
+  .btn2:hover
+{border: none; 
+width: 245px; 
+height: 80px;
+  border-radius: 50px; 
+  font-family: sans-serif; 
+  font-size: 22.5px;
+  cursor:pointer;  
+  color: white;
+background-size: 300px;
+text-transform: uppercase;
+background-image: linear-gradient(to left, #FFCC70 , #C850C0 , #FFCC70);
+
+}
+
+
+
+.btn3{
+  border-radius: 50% 50% 50% 50%;
+  }
+  .btn3:hover
+{border: none; 
+width: 245px; 
+height: 80px;
+  border-radius: 50px; 
+  font-family: sans-serif; 
+  font-size: 22.5px;
+  cursor:pointer;  
+  color: white;
+background-size: 300px;
+text-transform: uppercase;
+background-image: linear-gradient(to left, #0099F7 , #F11712 , #7AA1D2 );
+
+}
+
+
+.btn4{
+  border-radius: 50% 50% 50% 50%;
+
+  }
+  .btn4:hover
+{border: none; 
+width: 245px; 
+height: 80px;
+  border-radius: 50px; 
+  font-family: sans-serif; 
+  font-size: 22.5px;
+  cursor:pointer;  
+  color: white;
+background-size: 300px;
+text-transform: uppercase;
+background-image: linear-gradient(to left, #ffff00 , #ff0000 , #ffff00 );
+
+}
+
+
+#scroll{
+background-color: black;
+color: white;
+text-align: center;
+height: 100%;
+}
+
+.sidebar div{
+margin-right: 125px;
+}
+.sidebar {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+ margin-left: 0px;
+}
+.sidebar:hover {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+ 
+}
+.sidebar::content{
+  width: 350px;
+}
+ 
+.sidebar a {
+ 
+  color: #818181;
+  transition: 0.3s;
+  
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 72px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 50px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  position: absolute;
+  top: 45px;
+  left: 70px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  padding: 16px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+
+  .openbtn {
+    font-size: 20.5px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    position: absolute;
+    top: 12.5px;
+    left: 12.5px;
+  }
+  h1{
+    font-size: 200px;
+  }
+}

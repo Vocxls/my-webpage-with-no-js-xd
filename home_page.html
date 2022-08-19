@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+<html lang="en" ; style="font-family: 'Spartan'"; class="scrollbar-hidden">
+
+<head>
+
+    <link rel="stylesheet" href="home_page.css">
+    <script>
+
+        function openNav() {
+            document.getElementById('sidebar').style.width = "350px";
+
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Home</title>
+</head>
+<body style="background:#222;"> 
+    <div style="display: inline-flex; " class="div">
+
+       
+        <div> I'm a </div>
+
+        <ul class="ul">
+            <li> Coder </li>
+
+            <li> Genius </li>
+
+            <li> Student </li>
+
+            <li> Creator </li>
+        </ul>
+    </div>
+
+
+    <div id="main">
+        <button onclick="openNav()" ; class="openbtn" ;> ☰ </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" ; onclick="closeNav()" class="closebtn" ; style="text-decoration: none;"> x </a>
+
+<!-- Menu Bar contents -->
+ 
+        <div>
+
+            <form action="own_program_1.html">
+                <nav style="background: transparent; ">
+                    <ul>
+                        <li>
+                            
+                            <button type="submit" class="btn btn1" style="margin-top: 100px; margin-left: 24%;" > Get
+                                Started </button>
+                        </li>
+                    </ul>
+            </form>
+            <br>        
+      
+   
+            <form action="family_page.html">
+                <ul>
+                    <li>
+                        <button type="submit" class="btn btn2" style="margin-left:24%;"> Family </button>
+                    </li>
+                </ul>
+            </form>
+            <br>
+            
+    
+            <form action="achievements.html">
+                <ul>
+                    <li>
+                        <button type="submit" class="btn btn3" style="margin-left: 24%;" ;> Achievements </button>
+                    </li>
+                </ul>
+            </form>
+            <br>
+ 
+    
+
+
+            <form action="Goals.html">
+                <ul>
+                    <li>
+                        <button type="submit" class="btn btn4" style="margin-left: 24%;" ;> Goals </button>
+                    </li>
+                </ul>
+            </form>
+       
+            </nav>
+
+
+            </form>
+        </div>
+        <div class="icon" data-tooltip="Instagram"> <i class="ri-instagram-line"> </i> </div>
+    </body>
+</html>
